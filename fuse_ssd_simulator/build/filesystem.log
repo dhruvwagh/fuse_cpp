@@ -1,0 +1,264 @@
+[2024-11-19 14:17:38.575] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 14:17:38.575] [StorageAccelerator] [INFO ] Initializing Storage Accelerator with 16 drives.
+[2024-11-19 14:17:38.576] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:17:38.576] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:17:38.576] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:17:38.578] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:17:38.578] [Main] [INFO ] Storage Accelerator initialized with 16 drives
+[2024-11-19 14:17:38.578] [Main] [INFO ] Mounting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:17:38.578] [FUSE_Interface] [INFO ] Starting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:19:05.964] [SignalHandler] [INFO ] Received signal 2, cleaning up...
+[2024-11-19 14:19:05.965] [FUSE_Interface] [INFO ] Cleaning up FUSE interface...
+[2024-11-19 14:21:16.767] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 14:21:16.767] [StorageAccelerator] [INFO ] Initializing Storage Accelerator with 16 drives.
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:21:16.768] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:21:16.769] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:21:16.769] [Main] [INFO ] Storage Accelerator initialized with 16 drives
+[2024-11-19 14:21:16.769] [Main] [INFO ] Mounting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:21:16.769] [FUSE_Interface] [INFO ] Starting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:28:03.602] [SignalHandler] [INFO ] Received signal 2, cleaning up...
+[2024-11-19 14:28:03.602] [FUSE_Interface] [INFO ] Cleaning up FUSE interface...
+[2024-11-19 14:28:48.407] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing Storage Accelerator with 16 drives.
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:28:48.407] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:28:48.408] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:28:48.408] [Main] [INFO ] Storage Accelerator initialized with 16 drives
+[2024-11-19 14:28:48.408] [Main] [INFO ] Mounting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:30:08.697] [FUSE_Interface] [INFO ] Creating directory: /test
+[2024-11-19 14:30:08.697] [StorageAccelerator] [INFO ] Directory created: /test
+[2024-11-19 14:30:37.858] [FUSE_Interface] [INFO ] Creating file: /test/test.txt with mode: 33204
+[2024-11-19 14:30:37.859] [StorageAccelerator] [INFO ] File created: /test/test.txt
+[2024-11-19 14:30:37.859] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 14:30:37.859] [FUSE_Interface] [INFO ] Writing to file: /test/test.txt size: 5
+[2024-11-19 14:30:37.859] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 14:30:37.859] [StorageAccelerator] [INFO ] Wrote 5 bytes to /test/test.txt
+[2024-11-19 14:30:37.863] [StorageAccelerator] [INFO ] Drive 15 wrote 5 bytes to /test/test.txt
+[2024-11-19 14:30:51.201] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 14:30:51.202] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 14:30:51.202] [StorageAccelerator] [INFO ] Read 4096 bytes from /test/test.txt
+[2024-11-19 14:30:51.204] [StorageAccelerator] [INFO ] Drive 15 read 5 bytes from /test/test.txt
+[2024-11-19 14:32:41.787] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing Storage Accelerator with 16 drives.
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:32:41.788] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 14:32:41.789] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:32:41.790] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 14:32:41.790] [Main] [INFO ] Storage Accelerator initialized with 16 drives
+[2024-11-19 14:32:41.790] [Main] [INFO ] Mounting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 14:33:31.673] [FUSE_Interface] [INFO ] Creating directory: /test
+[2024-11-19 14:33:31.674] [StorageAccelerator] [INFO ] Directory created: /test
+[2024-11-19 14:33:48.436] [FUSE_Interface] [INFO ] Creating file: /test/test.txt with mode: 33204
+[2024-11-19 14:33:48.437] [StorageAccelerator] [INFO ] File created: /test/test.txt
+[2024-11-19 14:33:48.438] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 14:33:48.451] [FUSE_Interface] [INFO ] Writing to file: /test/test.txt size: 5
+[2024-11-19 14:33:48.451] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 14:33:48.451] [StorageAccelerator] [INFO ] Wrote 5 bytes to /test/test.txt
+[2024-11-19 14:33:48.454] [StorageAccelerator] [INFO ] Drive 15 wrote 5 bytes to /test/test.txt
+[2024-11-19 14:33:55.282] [FUSE_Interface] [INFO ] Creating file: /test/.test.txt.swp with mode: 33204
+[2024-11-19 14:33:55.282] [StorageAccelerator] [INFO ] File created: /test/.test.txt.swp
+[2024-11-19 14:33:55.282] [FUSE_Interface] [INFO ] Opening file: /test/.test.txt.swp
+[2024-11-19 14:33:55.283] [FUSE_Interface] [INFO ] Writing to file: /test/.test.txt.swp size: 1024
+[2024-11-19 14:33:55.283] [StorageAccelerator] [DEBUG] Path: /test/.test.txt.swp mapped to Drive 12
+[2024-11-19 14:33:55.283] [StorageAccelerator] [INFO ] Wrote 1024 bytes to /test/.test.txt.swp
+[2024-11-19 14:33:55.284] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 14:33:55.284] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 14:33:55.284] [StorageAccelerator] [INFO ] Read 4096 bytes from /test/test.txt
+[2024-11-19 14:33:55.286] [StorageAccelerator] [INFO ] Drive 15 read 5 bytes from /test/test.txt
+[2024-11-19 14:33:55.287] [StorageAccelerator] [INFO ] Drive 12 wrote 1024 bytes to /test/.test.txt.swp
+[2024-11-19 15:52:09.252] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 15:52:18.117] [Main] [INFO ] Starting FUSE SSD Simulator
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing Storage Accelerator with 16 drives.
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 0
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 1
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 2
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 3
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 4
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 5
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 6
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 7
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 15:52:18.118] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 8
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 9
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 10
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 11
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 12
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 13
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 14
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 15:52:18.119] [StorageAccelerator] [INFO ] Initializing SSD Simulator Drive 15
+[2024-11-19 15:52:18.119] [Main] [INFO ] Storage Accelerator initialized with 16 drives
+[2024-11-19 15:52:18.119] [Main] [INFO ] Mounting FUSE filesystem at /home/parallels/fuse_ssd_mount
+[2024-11-19 15:53:02.462] [FUSE_Interface] [INFO ] Creating directory: /test
+[2024-11-19 15:53:02.463] [StorageAccelerator] [INFO ] Directory created: /test
+[2024-11-19 15:53:42.882] [FUSE_Interface] [INFO ] Creating file: /text.txt with mode: 33188
+[2024-11-19 15:53:42.882] [StorageAccelerator] [INFO ] File created: /text.txt
+[2024-11-19 15:53:42.882] [FUSE_Interface] [INFO ] Opening file: /text.txt
+[2024-11-19 15:53:42.885] [StorageAccelerator] [INFO ] Updated timestamps of /text.txt
+[2024-11-19 15:55:05.972] [FUSE_Interface] [INFO ] Creating file: /test/text.txt with mode: 33188
+[2024-11-19 15:55:05.972] [StorageAccelerator] [INFO ] File created: /test/text.txt
+[2024-11-19 15:55:05.972] [FUSE_Interface] [INFO ] Opening file: /test/text.txt
+[2024-11-19 15:55:05.973] [StorageAccelerator] [INFO ] Updated timestamps of /test/text.txt
+[2024-11-19 15:55:12.237] [FUSE_Interface] [INFO ] Creating file: /test/test.txt with mode: 33204
+[2024-11-19 15:55:12.237] [StorageAccelerator] [INFO ] File created: /test/test.txt
+[2024-11-19 15:55:12.237] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 15:55:12.244] [FUSE_Interface] [INFO ] Writing to file: /test/test.txt size: 5
+[2024-11-19 15:55:12.244] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 15:55:12.244] [StorageAccelerator] [INFO ] Wrote 5 bytes to /test/test.txt
+[2024-11-19 15:55:12.247] [StorageAccelerator] [INFO ] Drive 15 wrote 5 bytes to /test/test.txt
+[2024-11-19 15:55:28.410] [FUSE_Interface] [INFO ] Opening file: /test/test.txt
+[2024-11-19 15:55:28.426] [StorageAccelerator] [DEBUG] Path: /test/test.txt mapped to Drive 15
+[2024-11-19 15:55:28.426] [StorageAccelerator] [INFO ] Read 4096 bytes from /test/test.txt
+[2024-11-19 15:55:28.428] [StorageAccelerator] [INFO ] Drive 15 read 5 bytes from /test/test.txt
+[2024-11-19 15:55:32.299] [FUSE_Interface] [INFO ] Opening file: /test/text.txt
+[2024-11-19 15:55:32.309] [StorageAccelerator] [DEBUG] Path: /test/text.txt mapped to Drive 3
+[2024-11-19 15:55:32.309] [StorageAccelerator] [INFO ] Read 4096 bytes from /test/text.txt
+[2024-11-19 15:55:32.311] [StorageAccelerator] [ERROR] Drive 3 read failed: /test/text.txt does not exist.
+[2024-11-19 15:55:50.516] [FUSE_Interface] [INFO ] Opening file: /test/text.txt
+[2024-11-19 15:55:50.517] [FUSE_Interface] [INFO ] Creating file: /test/.goutputstream-NC0FX2 with mode: 33204
+[2024-11-19 15:55:50.517] [StorageAccelerator] [INFO ] File created: /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.517] [FUSE_Interface] [INFO ] Opening file: /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.517] [StorageAccelerator] [INFO ] Changed owner of /test/.goutputstream-NC0FX2 to UID: 1000, GID: 1000
+[2024-11-19 15:55:50.517] [StorageAccelerator] [INFO ] Changed mode of /test/.goutputstream-NC0FX2 to 33206
+[2024-11-19 15:55:50.518] [FUSE_Interface] [INFO ] Writing to file: /test/.goutputstream-NC0FX2 size: 10
+[2024-11-19 15:55:50.518] [StorageAccelerator] [DEBUG] Path: /test/.goutputstream-NC0FX2 mapped to Drive 0
+[2024-11-19 15:55:50.518] [StorageAccelerator] [INFO ] Wrote 10 bytes to /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.518] [StorageAccelerator] [ERROR] Rename Failed: Destination /test/text.txt already exists
+[2024-11-19 15:55:50.518] [FUSE_Interface] [INFO ] Deleting file: /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.518] [StorageAccelerator] [DEBUG] Path: /test/.goutputstream-NC0FX2 mapped to Drive 0
+[2024-11-19 15:55:50.518] [StorageAccelerator] [INFO ] File deleted: /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.521] [StorageAccelerator] [INFO ] Drive 0 wrote 10 bytes to /test/.goutputstream-NC0FX2
+[2024-11-19 15:55:50.522] [StorageAccelerator] [INFO ] Drive 0 deleting file: /test/.goutputstream-NC0FX2
+[2024-11-19 15:59:35.750] [FUSE_Interface] [INFO ] Opening file: /text.txt
+[2024-11-19 15:59:35.762] [StorageAccelerator] [DEBUG] Path: /text.txt mapped to Drive 14
+[2024-11-19 15:59:35.762] [StorageAccelerator] [INFO ] Read 4096 bytes from /text.txt
+[2024-11-19 15:59:35.764] [StorageAccelerator] [ERROR] Drive 14 read failed: /text.txt does not exist.
