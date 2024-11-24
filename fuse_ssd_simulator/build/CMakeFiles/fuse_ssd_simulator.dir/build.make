@@ -83,161 +83,18 @@ CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/main.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.s
 
-CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o: ../src/fuse/fuse_interface.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/fuse/fuse_interface.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/fuse/fuse_interface.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/fuse/fuse_interface.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o: ../src/hashing/hashing_module.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/hashing_module.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/hashing_module.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/hashing_module.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o: ../src/hashing/xxhash.c
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/xxhash.c
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/xxhash.c > CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/hashing/xxhash.c -o CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o: ../src/logger/logger.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/logger/logger.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/logger/logger.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/logger/logger.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o: ../src/metadata/metadata_manager.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/metadata/metadata_manager.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/metadata/metadata_manager.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/metadata/metadata_manager.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o: ../src/monitoring/monitor.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/monitoring/monitor.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/monitoring/monitor.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/monitoring/monitor.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o: ../src/ssd_simulator/ssd_simulator.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/ssd_simulator/ssd_simulator.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/ssd_simulator/ssd_simulator.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/ssd_simulator/ssd_simulator.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o: ../src/storage_accelerator/storage_accelerator.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/storage_accelerator/storage_accelerator.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/storage_accelerator/storage_accelerator.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/storage_accelerator/storage_accelerator.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.s
-
-CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/flags.make
-CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o: ../src/utils/thread_pool.cpp
-CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o: CMakeFiles/fuse_ssd_simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o -MF CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o.d -o CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o -c /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/utils/thread_pool.cpp
-
-CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/utils/thread_pool.cpp > CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.i
-
-CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/src/utils/thread_pool.cpp -o CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.s
-
 # Object files for target fuse_ssd_simulator
 fuse_ssd_simulator_OBJECTS = \
-"CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o" \
-"CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o"
+"CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.o"
 
 # External object files for target fuse_ssd_simulator
 fuse_ssd_simulator_EXTERNAL_OBJECTS =
 
 fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o
-fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o
 fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/build.make
+fuse_ssd_simulator: libfuse_ssd_lib.a
 fuse_ssd_simulator: CMakeFiles/fuse_ssd_simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable fuse_ssd_simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fuse_ssd_simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fuse_ssd_simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

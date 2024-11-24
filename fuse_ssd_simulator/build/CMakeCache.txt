@@ -218,6 +218,9 @@ PKG_CONFIG_ARGN:STRING=
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
+//Dependencies for the target
+fuse_ssd_lib_LIB_DEPENDS:STATIC=general;fuse3;general;pthread;
+
 //Value Computed by CMake
 fuse_ssd_simulator_BINARY_DIR:STATIC=/home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build
 
@@ -389,6 +392,8 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/aarch64-linux-gnu/cmake/GTest/GTestConfig.cmake][c ][v1.11.0()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 FUSE_CFLAGS:INTERNAL=-I/usr/include/fuse3
 FUSE_CFLAGS_I:INTERNAL=
 FUSE_CFLAGS_OTHER:INTERNAL=

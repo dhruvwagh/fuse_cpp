@@ -198,7 +198,9 @@ CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/future \
+ /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/shared_mutex \
  /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/include/ssd_simulator/../logger/logger.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
@@ -221,6 +223,7 @@ CMakeFiles/fuse_ssd_simulator.dir/src/main.cpp.o: \
  /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/include/storage_accelerator/../hashing/hashing_module.h \
  /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/include/storage_accelerator/../metadata/metadata_manager.h \
  /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/include/storage_accelerator/../metadata/../storage_accelerator/file_metadata.h \
+ /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/include/storage_accelerator/load_balancer.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \

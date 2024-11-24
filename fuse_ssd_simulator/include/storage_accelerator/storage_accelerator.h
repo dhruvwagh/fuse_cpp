@@ -8,6 +8,7 @@
 #include "ssd_simulator/ssd_simulator.h"
 #include "../hashing/hashing_module.h"
 #include "../metadata/metadata_manager.h"
+#include "load_balancer.h"
 #include "../logger/logger.h"
 #include "file_metadata.h"
 
@@ -36,12 +37,16 @@ public:
     std::shared_ptr<FileMetadata> getMetadata(const std::string& path);
 
 private:
+    static constexpr size_t BLOCK_SIZE = 4096;
+    
     int num_drives_;
     std::unique_ptr<HashingModule> hashing_module_;
+    std::unique_ptr<LoadBalancer> load_balancer_;
     std::vector<std::unique_ptr<SSD_Simulator>> drives_;
     std::unique_ptr<MetadataManager> metadata_manager_;
     Logger logger_;
 
     int getDriveIndex(const std::string& path);
     SSD_Simulator* getDrive(const std::string& path);
+    SSD_Simulator* selectDrive(const std::string& path, size_t size);
 };

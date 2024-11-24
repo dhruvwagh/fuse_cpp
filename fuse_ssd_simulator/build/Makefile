@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/parallels/Documents/fuse_cpp/fuse_ssd_simulator/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -117,6 +127,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named fuse_ssd_lib
+
+# Build rule for target.
+fuse_ssd_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fuse_ssd_lib
+.PHONY : fuse_ssd_lib
+
+# fast build rule for target.
+fuse_ssd_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/build
+.PHONY : fuse_ssd_lib/fast
+
+#=============================================================================
 # Target rules for targets named fuse_ssd_simulator
 
 # Build rule for target.
@@ -129,12 +152,25 @@ fuse_ssd_simulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/build
 .PHONY : fuse_ssd_simulator/fast
 
+#=============================================================================
+# Target rules for targets named run_tests
+
+# Build rule for target.
+run_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
+
+# fast build rule for target.
+run_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
+
 src/fuse/fuse_interface.o: src/fuse/fuse_interface.cpp.o
 .PHONY : src/fuse/fuse_interface.o
 
 # target to build an object file
 src/fuse/fuse_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/fuse/fuse_interface.cpp.o
 .PHONY : src/fuse/fuse_interface.cpp.o
 
 src/fuse/fuse_interface.i: src/fuse/fuse_interface.cpp.i
@@ -142,7 +178,7 @@ src/fuse/fuse_interface.i: src/fuse/fuse_interface.cpp.i
 
 # target to preprocess a source file
 src/fuse/fuse_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/fuse/fuse_interface.cpp.i
 .PHONY : src/fuse/fuse_interface.cpp.i
 
 src/fuse/fuse_interface.s: src/fuse/fuse_interface.cpp.s
@@ -150,7 +186,7 @@ src/fuse/fuse_interface.s: src/fuse/fuse_interface.cpp.s
 
 # target to generate assembly for a file
 src/fuse/fuse_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/fuse/fuse_interface.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/fuse/fuse_interface.cpp.s
 .PHONY : src/fuse/fuse_interface.cpp.s
 
 src/hashing/hashing_module.o: src/hashing/hashing_module.cpp.o
@@ -158,7 +194,7 @@ src/hashing/hashing_module.o: src/hashing/hashing_module.cpp.o
 
 # target to build an object file
 src/hashing/hashing_module.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/hashing_module.cpp.o
 .PHONY : src/hashing/hashing_module.cpp.o
 
 src/hashing/hashing_module.i: src/hashing/hashing_module.cpp.i
@@ -166,7 +202,7 @@ src/hashing/hashing_module.i: src/hashing/hashing_module.cpp.i
 
 # target to preprocess a source file
 src/hashing/hashing_module.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/hashing_module.cpp.i
 .PHONY : src/hashing/hashing_module.cpp.i
 
 src/hashing/hashing_module.s: src/hashing/hashing_module.cpp.s
@@ -174,7 +210,7 @@ src/hashing/hashing_module.s: src/hashing/hashing_module.cpp.s
 
 # target to generate assembly for a file
 src/hashing/hashing_module.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/hashing_module.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/hashing_module.cpp.s
 .PHONY : src/hashing/hashing_module.cpp.s
 
 src/hashing/xxhash.o: src/hashing/xxhash.c.o
@@ -182,7 +218,7 @@ src/hashing/xxhash.o: src/hashing/xxhash.c.o
 
 # target to build an object file
 src/hashing/xxhash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/xxhash.c.o
 .PHONY : src/hashing/xxhash.c.o
 
 src/hashing/xxhash.i: src/hashing/xxhash.c.i
@@ -190,7 +226,7 @@ src/hashing/xxhash.i: src/hashing/xxhash.c.i
 
 # target to preprocess a source file
 src/hashing/xxhash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/xxhash.c.i
 .PHONY : src/hashing/xxhash.c.i
 
 src/hashing/xxhash.s: src/hashing/xxhash.c.s
@@ -198,7 +234,7 @@ src/hashing/xxhash.s: src/hashing/xxhash.c.s
 
 # target to generate assembly for a file
 src/hashing/xxhash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/hashing/xxhash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/hashing/xxhash.c.s
 .PHONY : src/hashing/xxhash.c.s
 
 src/logger/logger.o: src/logger/logger.cpp.o
@@ -206,7 +242,7 @@ src/logger/logger.o: src/logger/logger.cpp.o
 
 # target to build an object file
 src/logger/logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/logger/logger.cpp.o
 .PHONY : src/logger/logger.cpp.o
 
 src/logger/logger.i: src/logger/logger.cpp.i
@@ -214,7 +250,7 @@ src/logger/logger.i: src/logger/logger.cpp.i
 
 # target to preprocess a source file
 src/logger/logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/logger/logger.cpp.i
 .PHONY : src/logger/logger.cpp.i
 
 src/logger/logger.s: src/logger/logger.cpp.s
@@ -222,7 +258,7 @@ src/logger/logger.s: src/logger/logger.cpp.s
 
 # target to generate assembly for a file
 src/logger/logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/logger/logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/logger/logger.cpp.s
 .PHONY : src/logger/logger.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -254,7 +290,7 @@ src/metadata/metadata_manager.o: src/metadata/metadata_manager.cpp.o
 
 # target to build an object file
 src/metadata/metadata_manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/metadata/metadata_manager.cpp.o
 .PHONY : src/metadata/metadata_manager.cpp.o
 
 src/metadata/metadata_manager.i: src/metadata/metadata_manager.cpp.i
@@ -262,7 +298,7 @@ src/metadata/metadata_manager.i: src/metadata/metadata_manager.cpp.i
 
 # target to preprocess a source file
 src/metadata/metadata_manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/metadata/metadata_manager.cpp.i
 .PHONY : src/metadata/metadata_manager.cpp.i
 
 src/metadata/metadata_manager.s: src/metadata/metadata_manager.cpp.s
@@ -270,7 +306,7 @@ src/metadata/metadata_manager.s: src/metadata/metadata_manager.cpp.s
 
 # target to generate assembly for a file
 src/metadata/metadata_manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/metadata/metadata_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/metadata/metadata_manager.cpp.s
 .PHONY : src/metadata/metadata_manager.cpp.s
 
 src/monitoring/monitor.o: src/monitoring/monitor.cpp.o
@@ -278,7 +314,7 @@ src/monitoring/monitor.o: src/monitoring/monitor.cpp.o
 
 # target to build an object file
 src/monitoring/monitor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/monitoring/monitor.cpp.o
 .PHONY : src/monitoring/monitor.cpp.o
 
 src/monitoring/monitor.i: src/monitoring/monitor.cpp.i
@@ -286,7 +322,7 @@ src/monitoring/monitor.i: src/monitoring/monitor.cpp.i
 
 # target to preprocess a source file
 src/monitoring/monitor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/monitoring/monitor.cpp.i
 .PHONY : src/monitoring/monitor.cpp.i
 
 src/monitoring/monitor.s: src/monitoring/monitor.cpp.s
@@ -294,7 +330,7 @@ src/monitoring/monitor.s: src/monitoring/monitor.cpp.s
 
 # target to generate assembly for a file
 src/monitoring/monitor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/monitoring/monitor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/monitoring/monitor.cpp.s
 .PHONY : src/monitoring/monitor.cpp.s
 
 src/ssd_simulator/ssd_simulator.o: src/ssd_simulator/ssd_simulator.cpp.o
@@ -302,7 +338,7 @@ src/ssd_simulator/ssd_simulator.o: src/ssd_simulator/ssd_simulator.cpp.o
 
 # target to build an object file
 src/ssd_simulator/ssd_simulator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/ssd_simulator/ssd_simulator.cpp.o
 .PHONY : src/ssd_simulator/ssd_simulator.cpp.o
 
 src/ssd_simulator/ssd_simulator.i: src/ssd_simulator/ssd_simulator.cpp.i
@@ -310,7 +346,7 @@ src/ssd_simulator/ssd_simulator.i: src/ssd_simulator/ssd_simulator.cpp.i
 
 # target to preprocess a source file
 src/ssd_simulator/ssd_simulator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/ssd_simulator/ssd_simulator.cpp.i
 .PHONY : src/ssd_simulator/ssd_simulator.cpp.i
 
 src/ssd_simulator/ssd_simulator.s: src/ssd_simulator/ssd_simulator.cpp.s
@@ -318,15 +354,39 @@ src/ssd_simulator/ssd_simulator.s: src/ssd_simulator/ssd_simulator.cpp.s
 
 # target to generate assembly for a file
 src/ssd_simulator/ssd_simulator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/ssd_simulator/ssd_simulator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/ssd_simulator/ssd_simulator.cpp.s
 .PHONY : src/ssd_simulator/ssd_simulator.cpp.s
+
+src/storage_accelerator/load_balancer.o: src/storage_accelerator/load_balancer.cpp.o
+.PHONY : src/storage_accelerator/load_balancer.o
+
+# target to build an object file
+src/storage_accelerator/load_balancer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/load_balancer.cpp.o
+.PHONY : src/storage_accelerator/load_balancer.cpp.o
+
+src/storage_accelerator/load_balancer.i: src/storage_accelerator/load_balancer.cpp.i
+.PHONY : src/storage_accelerator/load_balancer.i
+
+# target to preprocess a source file
+src/storage_accelerator/load_balancer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/load_balancer.cpp.i
+.PHONY : src/storage_accelerator/load_balancer.cpp.i
+
+src/storage_accelerator/load_balancer.s: src/storage_accelerator/load_balancer.cpp.s
+.PHONY : src/storage_accelerator/load_balancer.s
+
+# target to generate assembly for a file
+src/storage_accelerator/load_balancer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/load_balancer.cpp.s
+.PHONY : src/storage_accelerator/load_balancer.cpp.s
 
 src/storage_accelerator/storage_accelerator.o: src/storage_accelerator/storage_accelerator.cpp.o
 .PHONY : src/storage_accelerator/storage_accelerator.o
 
 # target to build an object file
 src/storage_accelerator/storage_accelerator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/storage_accelerator.cpp.o
 .PHONY : src/storage_accelerator/storage_accelerator.cpp.o
 
 src/storage_accelerator/storage_accelerator.i: src/storage_accelerator/storage_accelerator.cpp.i
@@ -334,7 +394,7 @@ src/storage_accelerator/storage_accelerator.i: src/storage_accelerator/storage_a
 
 # target to preprocess a source file
 src/storage_accelerator/storage_accelerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/storage_accelerator.cpp.i
 .PHONY : src/storage_accelerator/storage_accelerator.cpp.i
 
 src/storage_accelerator/storage_accelerator.s: src/storage_accelerator/storage_accelerator.cpp.s
@@ -342,7 +402,7 @@ src/storage_accelerator/storage_accelerator.s: src/storage_accelerator/storage_a
 
 # target to generate assembly for a file
 src/storage_accelerator/storage_accelerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/storage_accelerator/storage_accelerator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/storage_accelerator/storage_accelerator.cpp.s
 .PHONY : src/storage_accelerator/storage_accelerator.cpp.s
 
 src/utils/thread_pool.o: src/utils/thread_pool.cpp.o
@@ -350,7 +410,7 @@ src/utils/thread_pool.o: src/utils/thread_pool.cpp.o
 
 # target to build an object file
 src/utils/thread_pool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/utils/thread_pool.cpp.o
 .PHONY : src/utils/thread_pool.cpp.o
 
 src/utils/thread_pool.i: src/utils/thread_pool.cpp.i
@@ -358,7 +418,7 @@ src/utils/thread_pool.i: src/utils/thread_pool.cpp.i
 
 # target to preprocess a source file
 src/utils/thread_pool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/utils/thread_pool.cpp.i
 .PHONY : src/utils/thread_pool.cpp.i
 
 src/utils/thread_pool.s: src/utils/thread_pool.cpp.s
@@ -366,8 +426,32 @@ src/utils/thread_pool.s: src/utils/thread_pool.cpp.s
 
 # target to generate assembly for a file
 src/utils/thread_pool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_simulator.dir/build.make CMakeFiles/fuse_ssd_simulator.dir/src/utils/thread_pool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fuse_ssd_lib.dir/build.make CMakeFiles/fuse_ssd_lib.dir/src/utils/thread_pool.cpp.s
 .PHONY : src/utils/thread_pool.cpp.s
+
+tests/test_storage_accelerator.o: tests/test_storage_accelerator.cpp.o
+.PHONY : tests/test_storage_accelerator.o
+
+# target to build an object file
+tests/test_storage_accelerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_storage_accelerator.cpp.o
+.PHONY : tests/test_storage_accelerator.cpp.o
+
+tests/test_storage_accelerator.i: tests/test_storage_accelerator.cpp.i
+.PHONY : tests/test_storage_accelerator.i
+
+# target to preprocess a source file
+tests/test_storage_accelerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_storage_accelerator.cpp.i
+.PHONY : tests/test_storage_accelerator.cpp.i
+
+tests/test_storage_accelerator.s: tests/test_storage_accelerator.cpp.s
+.PHONY : tests/test_storage_accelerator.s
+
+# target to generate assembly for a file
+tests/test_storage_accelerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/tests/test_storage_accelerator.cpp.s
+.PHONY : tests/test_storage_accelerator.cpp.s
 
 # Help Target
 help:
@@ -377,7 +461,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... fuse_ssd_lib"
 	@echo "... fuse_ssd_simulator"
+	@echo "... run_tests"
 	@echo "... src/fuse/fuse_interface.o"
 	@echo "... src/fuse/fuse_interface.i"
 	@echo "... src/fuse/fuse_interface.s"
@@ -402,12 +489,18 @@ help:
 	@echo "... src/ssd_simulator/ssd_simulator.o"
 	@echo "... src/ssd_simulator/ssd_simulator.i"
 	@echo "... src/ssd_simulator/ssd_simulator.s"
+	@echo "... src/storage_accelerator/load_balancer.o"
+	@echo "... src/storage_accelerator/load_balancer.i"
+	@echo "... src/storage_accelerator/load_balancer.s"
 	@echo "... src/storage_accelerator/storage_accelerator.o"
 	@echo "... src/storage_accelerator/storage_accelerator.i"
 	@echo "... src/storage_accelerator/storage_accelerator.s"
 	@echo "... src/utils/thread_pool.o"
 	@echo "... src/utils/thread_pool.i"
 	@echo "... src/utils/thread_pool.s"
+	@echo "... tests/test_storage_accelerator.o"
+	@echo "... tests/test_storage_accelerator.i"
+	@echo "... tests/test_storage_accelerator.s"
 .PHONY : help
 
 
